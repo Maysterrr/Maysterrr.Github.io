@@ -21,10 +21,10 @@
 .menu{
     grid-area: menu;
     display: grid;
-    height: auto;
+    height: 40vh;
 
-    background-color: #9E9E9E;
-    color: black;
+    background-color: #000;
+    color: white;
     text-align: center;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

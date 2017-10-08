@@ -8,7 +8,7 @@
 
     display: grid;
 
-    grid-gap: 50px;
+    grid-gap: 0px;
 
     grid-template-columns: 1fr 2fr 1fr ;
     grid-template-rows: 0.3fr 1fr 1fr ;
@@ -21,9 +21,9 @@
 .menu{
     grid-area: menu;
     display: grid;
-    height: 40vh;
+    height: auto;
 
-    background-color: #000;
+    background-color: #455A64;
     color: white;
     text-align: center;
 

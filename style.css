@@ -27,7 +27,9 @@
   }
 .menu{
 
-    margin: -10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
     grid-area: menu;
     display: grid;
     height: 16vh;

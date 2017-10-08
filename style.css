@@ -8,7 +8,14 @@
 
     display: grid;
 
-    grid-gap: 10px;
+    grid-gap: 40px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -50px;
+
+    border-width: 0;
+
+    height: auto;
 
     grid-template-columns: 1fr 2fr 1fr ;
     grid-template-rows: 0.3fr 1fr 1fr ;
@@ -19,9 +26,11 @@
 
   }
 .menu{
+
+    margin: -10px;
     grid-area: menu;
     display: grid;
-    height: auto;
+    height: 16vh;
 
     background-color: #455A64;
     color: white;
@@ -35,23 +44,19 @@
   }
   .content {
 
+    grid-area: content;
+    display: grid;
 
-  grid-area: content;
-  display: grid;
+    height: 100vh;
 
-  height: 100vh;
+    color: black;
+    background-color: #90A4AE;
 
-  color: black;
-  background-color: #90A4AE;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 100;
+    text-decoration: none;
 
-  text-align: center;
-  font-size: 1vw;
-  font-weight: 100;
-  text-decoration: none;
-   
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 20;
-  margin-bottom: 20;
-  padding-bottom: : 10px;
-  text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
 }

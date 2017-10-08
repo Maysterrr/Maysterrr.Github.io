@@ -1,6 +1,6 @@
 @media screen and (min-width: 1080px) and (min-height: 715px){
   .body{
-    background-color: #ECEFF1;
+    background-color: 'red';
   }
   .grid{
     font-family: 'Raleway', sans-serif;
@@ -12,8 +12,7 @@
     display: grid;
 
     grid-gap: 40px;
-
-    border-width: 0;
+    width: 100%;
 
     height: auto;
 
@@ -27,9 +26,7 @@
   }
 .menu{
 
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
+    width: 100%;
     grid-area: menu;
     display: grid;
     height: 16vh;

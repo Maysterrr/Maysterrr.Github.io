@@ -1,1 +1,53 @@
+@media screen and (min-width: 1080px) and (min-height: 715px){
+  .grid{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20;
+    font-weight: 300;
 
+    background-color: #ECEFF1;
+
+    display: grid;
+
+    grid-gap: 20px;
+    height: 100vh;
+
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 2fr 1fr ;
+    grid-template-areas:
+    "menu menu menu"
+    ". content ."
+    ". content .";
+
+  }
+.menu{
+    grid-area: menu;
+    display: grid;
+    height: 100vh;
+
+
+    color: white;
+    background-color: 'red';
+
+
+
+  }
+  .content {
+
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+
+  grid-area: content;
+  display: grid;
+
+  color: white;
+  background-color: white;
+
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 100;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
